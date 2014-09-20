@@ -1,3 +1,4 @@
 ---
-path: "{{ ansible_env.HOME }}/Emscripten"
+homedir: "{{ ansible_env.HOME }}"
 user: "{{ ansible_env.USER }}"
+path: "{{ homedir }}/Emscripten"
