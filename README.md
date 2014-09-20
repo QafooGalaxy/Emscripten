@@ -18,11 +18,15 @@ Provide a working [Emscripten]() environment including all dependencies.
 
 ## Configuration
 
-*optional* `path`: Path to install the Emscripten environment is installed to.
-(Default: `{{ ansible_env.HOME }}/Emscripten`).
+*optional* `homedir`: homedir of the user the install path does belong to. Will
+be used to create the default install path (Default: `{{ ansible_env.HOME }}`).
 
 *optional* `user`: username the install path belongs to (Default: 
 `{{ ansible_env.USER }}`).
+
+*optional* `path`: Path to install the Emscripten environment is installed to.
+(Default: `{{ homedir }}/Emscripten`).
+
 
 ## Implicit Dependencies
 
