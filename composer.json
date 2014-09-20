@@ -2,10 +2,10 @@
     "name": "qafoogalaxy/Emscripten",
     "type": "ansible-role",
     "require": {
-        "qafoogalaxy/installer": "1.0",
-        "qafoogalaxy/BuildEnvironment": "1.0",
-        "qafoogalaxy/CMake": "1.0",
-        "qafoogalaxy/Git": "1.0",
-        "qafoogalaxy/Java": "1.0"
+        "qafoogalaxy/installer": "dev-master",
+        "qafoogalaxy/BuildEnvironment": "dev-master",
+        "qafoogalaxy/CMake": "dev-master",
+        "qafoogalaxy/Git": "dev-master",
+        "qafoogalaxy/Java": "dev-master"
     }
 }
